@@ -1,0 +1,529 @@
+@CHARSET "UTF-8";
+
+body{
+	margin: 0px;
+}
+
+li{
+ list-style: none;	
+}
+.top{
+	height:70px;
+	background-image: url("../images/background.png");
+}
+.top .logo{
+	width:290px;
+	height:70px;
+	float:left;
+}
+
+.top .logo div{
+	height:70px;
+	background-image: url("../images/logo.png");
+	margin-left: 120px;
+}
+
+.top .nav{
+	width:580px;
+	height: 70px;
+	float: left;
+}
+.top .nav li{
+	line-height: 80px;
+	float: left;
+	padding-right: 35px;
+	font-size: 16px;
+}
+.top .nav li a{
+	text-decoration:none;
+	color: #e8e7e7;
+}
+.top .nav li a:hover{
+	color: #444343;
+}
+.top .search{
+	width:479px;
+	height: 70px;
+	float: left;
+}
+.top .search .searchInput{
+	width:220px;
+	height:70px;
+	float: left;
+}
+.top .search .searchInput input{
+	width: 180px;
+	margin-top: 20px;
+}
+
+.top .search .login{
+	width:100px;
+	height:70px;
+	float: left;
+	line-height: 80px;
+}
+.top .search .login a{
+	text-decoration:none;
+	color: #e8e7e7;
+	font-size: 14px;
+}
+.top .search .login a:hover{
+	color: #444343;
+}
+/*二级头部*/
+.secondTop{
+	height: 35px;
+	background-color: #b50b0b;
+}
+
+.secondTop div{
+	width:900px;
+	height:35px;
+	float:left;
+	margin-left: 290px;
+}
+.secondTop div li{
+	line-height: 35px;
+	float: left;
+	padding-right:50px; 
+}
+
+.secondTop div li a{
+	text-decoration:none;
+	color: #e8e7e7;
+	font-size: 14px;
+}
+
+.secondTop div li a:hover{
+	color: #444343;
+}
+
+/*图片轮播*/
+.carouselFigure{
+	height: 340px;
+	background-color: #080206;
+}
+.carouselFigure div{
+	height:340px;
+	background-image: url("../images/carouselFigure.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*
+	内容
+	热门：575px;
+	个性化推荐：425px;
+	新碟上架：280px;
+	榜单：535px;
+	1000+815=1815px;
+*/
+.musicBody{
+	height:1815px;
+	background-color: #f5f5f5;
+}
+.musicBody .musicBox{
+	width:980px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*内容的左边*/
+.musicBody .musicBox .leftBox{
+	width: 729px;
+	height:1815px;
+	float: left;
+	border-left: 1px solid #d4d4d4;
+}
+/*热门音乐*/
+.musicBody .musicBox .leftBox .hotMusicTop{
+	height: 50px;
+	background-color: #fff;
+}
+.musicBody .musicBox .leftBox .hotMusicTop  a{
+	text-decoration: none;
+	color: #666666;
+}
+.musicBody .musicBox .leftBox .hotMusicTop  a:hover{
+		color: #333333;
+}
+
+.musicBody .musicBox .leftBox .hotMusicTop .hotLogo{
+	height:50px;
+	width:120px;
+	float: left;
+	background-image: url("../images/hotMusicLogo.png");
+	margin-left: 20px;
+}
+.musicBody .musicBox .leftBox .hotMusicTop .hotNav{
+	height:50px;
+	float: left;
+}
+.musicBody .musicBox .leftBox .hotMusicTop .hotNav li{
+	float: left;
+	font-size: 12px;
+	padding-right: 25px;
+	line-height: 70px;
+}
+
+.musicBody .musicBox .leftBox .hotMusicTop .hotMore{
+	height: 50px;
+	width: 100px;
+	float: right;
+	line-height: 60px;
+	font-size: 12px;
+}
+.musicBody .musicBox .leftBox .redLine{
+	width: 690px;
+	height: 2px;
+	background-color: #c10d0c;
+	margin: 0 auto;
+}
+
+.musicBody .musicBox .leftBox .hotMusic{
+	height: 395px;
+}
+.musicBody .musicBox .leftBox .hotMusic .hotMusic_1{
+	width: 689px;
+	height:395px;
+	margin:20px auto 0px auto;
+}
+/*热门推荐图片*/
+.musicBody .musicBox .leftBox .hotMusic .hotMusic_1 div{
+	height: 170px;
+	width:145px;
+	margin-right:36px;
+	float: left;
+	margin-bottom: 20px;
+}
+.musicBody .musicBox .leftBox .hotMusic .hotMusic_1 .hotMusic_1_4{
+	margin-right: 0px;
+}
+.musicBody .musicBox .leftBox .hotMusic .hotMusic_1 div a{
+	text-decoration:none;
+	color: #666666;;
+	font-size: 14px;
+}
+/*推荐音乐*/
+.musicBody .musicBox .leftBox .recommendMusicTop{
+	height: 50px;
+	background-color: #ffffff;
+}
+.musicBody .musicBox .leftBox .recommendMusicTop .recommendMusicLogo{
+	width:140px;
+	height: 50px;
+	background-image: url("../images/recommendMusicLogo.png");
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+
+.musicBody .musicBox .leftBox .recommendMusic{
+	height:375px;
+	background-color: #f5f5f5;
+}
+.musicBody .musicBox .leftBox .recommendMusic .recommendMusic_1{
+	width: 689px;
+	height: 170px;
+	margin: 20px auto 0px auto;
+	
+}
+.musicBody .musicBox .leftBox .recommendMusic .recommendMusic_1 div{
+	height: 170px;
+	width:145px;
+	margin-right:36px;
+	float: left;
+}
+.musicBody .musicBox .leftBox .recommendMusic .recommendMusic_1 div a{
+	text-decoration:none;
+	color: #666666;;
+	font-size: 14px;
+}
+.musicBody .musicBox .leftBox .recommendMusic .recommendMusic_1 .recommendMusic_1_4{
+	margin-right: 0px;
+}
+.musicBody .musicBox .leftBox .recommendMusic .advert{
+	width:690px;
+	height: 75px;
+	margin:90px auto 0px auto;
+}
+/*新碟上架*/
+.musicBody .musicBox .leftBox .newAlbumTop{
+	height: 50px;
+	background-color: #fff;
+}
+.musicBody .musicBox .leftBox .newAlbumTop .newAlbumLogo{
+	height: 50px;
+	width:150px;
+	background-image: url("../images/newAlbumLogo.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+.musicBody .musicBox .leftBox .newAlbumTop .newAlbumMore{
+	height: 50px;
+	width: 100px;
+	float: right;
+}
+.musicBody .musicBox .leftBox .newAlbumTop .newAlbumMore a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 12px;
+	line-height: 70px;
+}
+
+.musicBody .musicBox .leftBox .newAlbum{
+	height: 230px;
+	background-color: #f5f5f5;
+}
+.musicBody .musicBox .leftBox .newAlbum .newAlbum_1{
+	width: 690px;
+	height: 190px;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.musicBody .musicBox .leftBox .newAlbum .newAlbum_1 div{
+	width: 120px;
+	height: 100px;
+	float: left;
+	margin-right: 22px;
+	margin-top: 30px;
+}
+.musicBody .musicBox .leftBox .newAlbum .newAlbum_1 .newAlbum_1_5{
+	margin-right: 0px;
+}
+
+.musicBody .musicBox .leftBox .newAlbum .newAlbum_1 div a{
+	text-decoration:none;
+	color: #666666;;
+	font-size: 14px;
+}
+
+.musicBody .musicBox .leftBox .billboardTop{
+	height: 50px;
+	background-color: #fff;
+}
+.musicBody .musicBox .leftBox .billboardTop .billboardLogo{
+	height: 50px;
+	width: 150px;
+	float: left;
+	background-image: url("../images/billboardLogo.png");
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+.musicBody .musicBox .leftBox .billboardTop .billboardMore{
+	height: 50px;
+	width: 100px;
+	float: right;
+	
+}
+.musicBody .musicBox .leftBox .billboardTop .billboardMore a{
+	text-decoration:none;
+	color: #666666;;
+	font-size: 12px;
+	line-height: 70px;
+	
+}
+.musicBody .musicBox .leftBox .billboard{
+	height: 530px;
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1{
+	width: 692px;
+	height: 475px;
+	background-color: #f4f4f4;
+	margin: 20px auto 0px auto;
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1 .billboard_1_1{
+	width: 230px;
+	height: 475px;
+	float: left;
+	border-right: 1px solid #c3c3c3;
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1 .billboard_1_3{
+	border-right: 0px;
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1 .billboard_1_1 .billboardTop{
+	width: 230px;
+	height: 120px;
+	background-color: #f4f4f4;
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1 .billboard_1_1 .billboardBody{
+	font-size: 14px;
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1 .billboard_1_1 .billboardBody table{
+	text-align: center;
+	margin-left: 20px;
+	
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1 .billboard_1_1 .billboardBody div{
+	width:100px;
+	height:50px;
+	float:right;
+	margin: 50px 20px 0 0;
+}
+.musicBody .musicBox .leftBox .billboard .billboard_1 .billboard_1_1 .billboardBody a{
+	text-decoration:none;
+	color: #000;;
+	font-size: 14px;
+	margin-left: 20px;
+}
+/*内容右边*/
+.musicBody .musicBox .rightBox{
+	width: 248px;
+	height:1813px;
+	float: left;
+	border-top: 1px solid #d4d4d4;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+.musicBody .musicBox .rightBox .rightBox_1{
+	width: 248px;
+	height: 185px;
+}
+.musicBody .musicBox .rightBox .rightBox_1 .rightBox_1_1{
+	width:248px;
+	height: 110px;
+}
+.musicBody .musicBox .rightBox .rightBox_1 .rightBox_1_1 .rightBox_1_1_left{
+	width:115px;
+	height: 110px;
+	float:left;
+	background-image: url("../images/userLogo.png");
+	background-color:#f6f6f6;
+	background-repeat: no-repeat;
+}
+.musicBody .musicBox .rightBox .rightBox_1 .rightBox_1_1 .rightBox_1_1_right{
+	width: 133px;
+	height: 110px;
+	float: right;
+}
+.musicBody .musicBox .rightBox .rightBox_1 .rightBox_1_1 .rightBox_1_1_right .rig_1{
+	width: 133px;
+	height: 70px;
+	background-color: #f6f6f6;
+	text-align: center;
+	line-height: 70px;
+}
+.musicBody .musicBox .rightBox .rightBox_1 .rightBox_1_1 .rightBox_1_1_right .rig_2{
+	width: 133px;
+	height: 40px;
+	text-align:center;
+	background-color: #f6f6f6;
+}
+
+
+.musicBody .musicBox .rightBox .rightBox_1 .rightBox_1_2{
+	width: 248px;
+	height: 75px;
+	background-color: #f6f6f6;
+}
+.musicBody .musicBox .rightBox .rightBox_2{
+	width: 248px;
+	height: 485px;
+	background-color: #fff;
+	background-image: url("../images/right_center.png");
+}
+.musicBody .musicBox .rightBox .rightBox_3{
+	width:248px;
+	height: 350px;
+	background-color: #fff;
+	background-image: url("../images/right_bottom.png");
+}
+
+
+.bottom{
+	height: 124px;
+	border-top: 1px solid #d4d4d4;
+	background-image: url("../images/buttomImage.png");
+	background-repeat: no-repeat;
+	background-color: #f9f9f9;
+}
+/*引入进度条的样式*/
+/* .play{
+    height: 40px; background:rgba(0,0,0,0.5);
+}
+.play .icon{
+    padding: 5px;
+    border:1px solid #fff;
+    border-radius: 100%;
+    margin: 3px 10px;
+    vertical-align: middle;
+}
+.play a{ color:#ccc;}
+.player a:hover{text-decoration: none;  color:#fff;}
+.player a:hover .glyphicon{  color:#fff;}
+.player a:visited{ border:none; text-decoration: none; }
+.play .icon.glyphicon-play,.play .icon.glyphicon-pause{
+    font-size: 18px;
+}
+.play canvas{ margin-top: 20px; cursor: pointer; }
+.play canvas#volume{ margin-top: 7px;}
+.player_controller{
+     float: left;
+}
+.pg_box{
+
+    height: 6px;
+    border: 1px solid #ccc;
+    margin: 18px 0 0 0px;
+    border-radius: 5px;
+}
+.pg_box.ct_pg{
+    float: left;
+    width: 450px;
+}
+.pg_box.vm_pg{
+    width: 100px;
+    margin: 5px 0 0 0;
+}
+.pg{ height: 6px; width: auto;}
+.pg>*{
+    float: left;
+}
+.pg_bar{
+    border-radius: 5px;
+    height: 4px;
+    background: darkred;
+}
+.pg_bar.curTime{
+    width: 250px;
+}
+.pg_bar.curVlm{
+    width: 40px;
+}
+.pg:after{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+    left: -2px;
+    content:" ";
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: #fff;
+}
+.play_opts{
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin:8px 0;
+    line-height: 30px;
+}
+.play_opts section {
+    display: inline-block;
+}
+.play_opts a{ margin: 0 5px;}
+.volume *{ float: left;}
+.timeBox{
+    float: left;
+    width: 600px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.timeBox *{
+    float: left;
+    }
+.timeBox span{ margin: 10px 10px 0 10px;}
+
+.lrc{ width: 600px; margin: 0 auto; color:#fff; text-align: center; position: relative; bottom: 120px;}
+ */

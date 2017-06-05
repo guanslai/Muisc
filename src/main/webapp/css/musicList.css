@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+.MusicList{
+	width: 100%;
+	height: auto;
+	background-color: #f5f5f5;
+}
+.MusicListBody{
+	width: 980px;
+	height: 1200px;
+	border: 1px solid #d3d3d3;
+	margin: auto;
+	background-color: #fff;
+}
+
+.MusicListBody .MusicListBodyTop{
+	width: 100%;
+	height: 80px;
+}
+.MusicListBody .MusicListBodyTop .selectButton{
+	width: 900px;
+	height: 80px;
+	margin: auto;
+}
+.MusicListBody .MusicListBodyTop .selectButton div{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.MusicListBody .MusicListBodyTop .selectButton div span{
+	font-size: 24px;
+	line-height: 120px;
+	margin-left: 10px;
+}
+.MusicListBody .MusicListBodyTop .selectButton div input{
+	margin-top: 42px;
+}
+.redLine{
+	width: 900px;
+	height: 2px;
+	background-color: #c20c0c;
+	margin: auto;
+}
+.MusicListBody .musicListBodyCenter{
+	width: 900px;
+	height: 1000px;
+	margin: 10px auto 0px auto;
+}
+.MusicListBody .musicListBodyCenter .selectDiv{
+	width: 700px;
+	height: 400px;
+	z-index:1000;
+	position:absolute;
+	background-color: #fff;
+	-moz-box-shadow:2px 2px 10px #4d4d4d;
+    -webkit-box-shadow:2px 2px 10px #4d4d4d;
+    box-shadow:2px 2px 10px #4d4d4d;
+    display: none;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .selectDivNav{
+	width: 700px;
+	height: 60px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .selectDivNav div{
+	width: 80px;
+	height: 30px;
+	margin-top:25px;
+	margin-left:20px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody{
+	width: 700px;
+	height: 314px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyLeft{
+	width: 99px;
+	height: 314px;
+	border-right: 1px solid #e6e6e6;
+	float: left;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyLeft div{
+	width: 99px;
+	height: 50px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyRight{
+	width: 600px;
+	height: 314px;
+	float: left;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyRight .languageDiv{
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyRight .languageDiv a{
+	margin-left: 20px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyRight .typeDiv{
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyRight .typeDiv a{
+	margin-left: 20px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyRight .styleDiv{
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+}
+.MusicListBody .musicListBodyCenter .selectDiv .divBody .divBodyRight .styleDiv a{
+	margin-left: 20px;
+}
+.MusicListBody .musicListBodyCenter .divOne{
+	width: 140px;
+	height: 175px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 45px;
+}
+.MusicListBody .musicListBodyCenter .five{
+	margin-right: 0px;
+}

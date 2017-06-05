@@ -1,0 +1,264 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+}
+
+li{
+ list-style: none;	
+}
+
+.top{
+	height:70px;
+	background-image: url("../images/background.png");
+}
+.top .logo{
+	width:290px;
+	height:70px;
+	float:left;
+}
+
+.top .logo div{
+	height:70px;
+	background-image: url("../images/logo.png");
+	margin-left: 120px;
+}
+
+.top .nav{
+	width:580px;
+	height: 70px;
+	float: left;
+}
+.top .nav li{
+	line-height: 80px;
+	float: left;
+	padding-right: 35px;
+	font-size: 16px;
+}
+.top .nav li a{
+	text-decoration:none;
+	color: #e8e7e7;
+}
+.top .nav li a:hover{
+	color: #444343;
+}
+.top .search{
+	width:479px;
+	height: 70px;
+	float: left;
+}
+.top .search .searchInput{
+	width:220px;
+	height:70px;
+	float: left;
+}
+.top .search .searchInput input{
+	width: 180px;
+	margin-top: 25px;
+}
+
+.top .search .login{
+	width:100px;
+	height:70px;
+	float: left;
+	line-height: 80px;
+}
+.top .search .login a{
+	text-decoration:none;
+	color: #e8e7e7;
+	font-size: 14px;
+}
+.top .search .login a:hover{
+	color: #444343;
+}
+/*二级头部*/
+.secondTop{
+	height: 35px;
+	background-color: #b50b0b;
+}
+
+.secondTop div{
+	width:900px;
+	height:35px;
+	float:left;
+	margin-left: 290px;
+}
+.secondTop div li{
+	line-height: 35px;
+	float: left;
+	padding-right:50px; 
+}
+
+.secondTop div li a{
+	text-decoration:none;
+	color: #e8e7e7;
+	font-size: 14px;
+}
+
+.secondTop div li a:hover{
+	color: #444343;
+}
+
+/*列表内容*/
+.listBody{
+	height:auto;
+	background-color: #f5f5f5;
+}
+
+.listBody .listBox{
+	width:980px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.listBody .listBox .bodyLeft{
+	width: 248px;
+	height:1390px;
+	float: left;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+.listBody .listBox .bodyLeft .bodyLeft_1{
+	height: 70px;
+	width: 246px;
+	line-height: 100px;
+	font-size: 15px;
+}
+.listBody .listBox .bodyLeft .bodyLeft_2{
+	height: 60px;
+	width: 246px;
+	background-color: #f9f9f9;
+}
+.listBody .listBox .bodyLeft .bodyLeft_2:hover{
+	cursor: pointer;
+	background-color: #e6e6e6;
+}
+.listBody .listBox .bodyLeft .bodyLeft_2 .leftLogo{
+	width: 65px;
+	height: 60px;
+	float: left;
+}
+.listBody .listBox .bodyLeft .bodyLeft_2 .leftText{
+	width:180px;
+	height: 60px;
+	float: left;
+}
+.listBody .listBox .bodyLeft .bodyLeft_2 .leftText .leftText_1{
+	width: 180px;
+	height: 30px;
+	line-height: 40px;
+}
+.listBody .listBox .bodyLeft .bodyLeft_2 .leftText .leftText_2{
+	width: 180px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 25px;
+}
+.listBody .listBox .bodyLeft .bodyLeft_2 .leftLogo div{
+	width: 40px;
+	height: 60px;
+	margin-left: 20px;
+	line-height: 60px;
+}
+
+.listBody .listBox .bodyLeft .bodyLeft_3{
+	height: 500px;
+	width: 246px;
+	background-color:#f9f9f9;
+}
+.listBody .listBox .bodyLeft .bodyLeft_3 div{
+	width: 230px;
+	margin-left: 8px;
+}
+.listBody .listBox .bodyRight{
+	width: 729px;
+	height:1390px;
+	float: left;
+	background-color:#ffffff;
+	border-right: 1px solid #d4d4d4;
+}
+/*右侧头部*/
+.listBody .listBox .bodyRight .bodyRightTop{
+	height: 220px;
+	width: 728px;
+}
+.listBody .listBox .bodyRight .bodyRightTop .topLogo{
+	width: 220px;
+	height: 200px;
+	float:left;
+}
+.listBody .listBox .bodyRight .bodyRightTop .topLogo div{
+	width: 150px;
+	height: 150px;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+.listBody .listBox .bodyRight .bodyRightTop .topOperation{
+	height: 200px;
+	width: 500px;
+	float:left;
+}
+.listBody .listBox .bodyRight .bodyRightTop .topOperation .topOperation_1{
+	height: 100px;
+	width: 500px;
+}
+.listBody .listBox .bodyRight .bodyRightTop .topOperation .topOperation_1 span{
+	font-size: 20px;
+	margin-left:10px;
+	line-height: 100px;
+}
+.listBody .listBox .bodyRight .bodyRightTop .topOperation .topOperation_2{
+	height: 70px;
+	width: 500px;
+}
+.listBody .listBox .bodyRight .bodyRightTop .topOperation .topOperation_2 .playButton{
+	width: 100px;
+	margin-left:10px;
+	float:left;
+	line-height: 100px;
+}
+.listBody .listBox .bodyRight .bodyRightTop .topOperation .topOperation_2 .other{
+	width: 300px;
+	float: left;
+	line-height: 70px;
+}
+/*右侧导航栏*/
+.listBody .listBox .bodyRight .bodyRightNav{
+	height: 50px;
+	width: 728px;
+}
+.listBody .listBox .bodyRight .bodyRightNav div{
+	font-size: 20px;
+	margin-left: 20px;
+	line-height: 50px;
+}
+/*红线*/
+.listBody .listBox .bodyRight .redLine{
+	width: 690px;
+	height: 2px;
+	background-color: #c10d0c;
+	margin: 0 auto;
+}
+/*右侧音乐列表*/
+.listBody .listBox .bodyRight .muiscList{
+	width: 728px;
+	height: auto;
+}
+.listBody .listBox .bodyRight .muiscList .listTable{
+	width: 720px;
+	margin-top: 20px;
+ 	color: #666666;
+ 	margin-left: 4px;
+}
+.listBody .listBox .bodyRight .muiscList .listTable thead{
+	text-align: center;
+}
+/*底部*/
+.bottom{
+	height: 124px;
+	border-top: 1px solid #d4d4d4;
+	background-image: url("../images/buttomImage.png");
+	background-repeat: no-repeat;
+	background-color: #f9f9f9;
+}

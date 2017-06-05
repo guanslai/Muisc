@@ -1,0 +1,245 @@
+@CHARSET "UTF-8";
+.secondRedLine{
+	height: 5px;
+	background-color: #c10d0c;
+}
+
+/*左侧*/
+.musicBody .musicBox .leftBox_1{
+	width: 248px;
+	height:1390px;
+	float: left;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+	
+}
+
+/*创建歌单*/
+ .musicBody .musicBox .leftBox_1 .createSheet{
+ 	width: 248px;
+ 	height: 50px;
+ }
+ 
+  .musicBody .musicBox .leftBox_1 .createSheet .buttonOfCreate{
+  	width: 248px;
+  	height: 35px;
+  	margin-top:65px;
+  }
+  
+  .musicBody .musicBox .leftBox_1 .createSheet .buttonOfCreate .createText{
+  	width: 60px;
+  	height: 35px;
+  	float:left;
+  	text-align: center;
+  }
+  .musicBody .musicBox .leftBox_1 .createSheet .buttonOfCreate .createButton{
+  	width:60px;
+  	height: 35px;
+  	float: left;
+  }
+  .musicBody .musicBox .leftBox_1 .createSheet .buttonOfCreate .deleteButton{
+  	width: 20px;
+  	height: 35px;
+  	float: left;
+  	
+  }
+  /*歌单*/
+ .musicBody .musicBox .leftBox_1 .sheet{
+ 	width:248px;
+ 	height:1000px;
+ }
+ 
+ .musicBody .musicBox .leftBox_1 .sheet div{
+ 	height: 55px;
+ 	width: 248px;
+ 	margin-top: 5px;
+ }
+ 
+ .musicBody .musicBox .leftBox_1 .sheet div .sheet_1_logo{
+ 	width: 65px;
+ 	height: 55px;
+ 	background-color: #e6e6e6;
+ 	background-repeat:no-repeat;
+ 	float: left;
+ }
+ 
+  .musicBody .musicBox .leftBox_1 .sheet div .sheet_1_text{
+  	width: 183px;
+  	height: 55px;
+  	background-color: #e6e6e6;
+  	float: left;
+	line-height: 50px;
+	text-align: center;
+  }
+  
+ .musicBody .musicBox .leftBox_1 .sheet div .sheet_1_text a{
+   		text-decoration: none;
+   		color:black;
+   		font-size: 14px;
+   }
+  
+  /*右侧*/
+  .musicBody .musicBox .rightBox_1{
+	width: 729px;
+	height:1390px;
+	float: left;
+	border-right: 1px solid #d4d4d4;
+}
+
+/*右侧上的操作部分*/
+ .musicBody .musicBox .rightBox_1 .operate{
+ 	width:729px;
+ 	height: 280px;
+ 	background-color: #fff;
+ }
+ .musicBody .musicBox .rightBox_1 .operate .operateLeft{
+ 	width:265px;
+ 	height: 275px;
+ 	background-image: url("../images/operateLogo.png");
+ 	float: left;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight{
+ 	height: 275px;
+ 	width:464px;
+ 	float: right;
+ }
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_1{
+ 	width: 464px;
+ 	height:70px;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_1 .songSheetLogo{
+ 	width: 90px;
+ 	height: 70px;
+ 	line-height: 100px;
+ 	float: left;
+ }
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_1 .songSheetName{
+ 	width: 300px;
+ 	height: 70px;
+ 	float: left;
+ 	text-align: left;
+ 	line-height: 100px;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_2{
+ 	width: 464px;
+ 	height: 50px;
+ }
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_2 .myMusic_userLogo{
+ 	width: 50px;
+ 	height: 40px;
+ 	float: left;
+ }
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_2 .userName{
+ 	width: 75px;
+ 	height: 40px;
+ 	float: left;
+ 	line-height:35px;
+ 	font-size:13px;
+ 	
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_2 .userName a{
+ 	color: #3885d3;
+ 	text-decoration: none;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_2 .userName a:hover{
+ 	text-decoration: underline;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_2 .createTime{
+ 	width: 300px;
+ 	height: 40px;
+ 	float: left;
+ 	font-size: 13px;
+ 	line-height: 35px;
+ 	color: #999999;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_3{
+ 	width: 464px;
+ 	height: 55px;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_3 .playMusic{
+ 	width: 100px;
+ 	height: 55px;
+ 	float: left;
+ }
+  .musicBody .musicBox .rightBox_1 .operate .operateRight .operateRight_3 .other{
+  	width:350px;
+  	height: 55px;
+  	float: left;
+  	line-height: 40px;
+  }
+ .createDiv{
+  	width: 400px;
+  	height: 130px;
+  	float:left;
+  	display:none;
+  	border: 1px solid #6e6e6e;
+  }
+  .createDiv .blackBlock{
+  	width: 400px;
+  	height: 30px;
+  	background-color: #2d2d2d;
+  }
+   .createDiv .createInput{
+   	width: 400px;
+   	height: 100px;
+   	text-align: center;
+   	margin-top: 20px;
+   }
+ .musicBody .musicBox .rightBox_1 .myMusicNav{
+	width: 729px;
+	height: 30px;
+	background-image: url("../images/musicListLogo.png");
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+.redLine{
+	width: 690px;
+	height: 2px;
+	background-color: #c10d0c;
+	margin: 0 auto;
+}
+ .musicBody .musicBox .rightBox_1 .musicList{
+ 	width: 729px;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .musicList table{
+ 	margin-top:20px;
+ 	width:729px;
+ 	border-top: 1px solid #cccccc;
+ 	border-bottom:1px solid #cccccc;
+ 	color: #666666;
+ 	
+ }
+ .musicBody .musicBox .rightBox_1 .musicList table tr{
+ 	height: 40px;
+ }
+ .musicBody .musicBox .rightBox_1 .musicList table tbody tr:hover{
+ 	color:black;
+ }
+ 
+ .musicBody .musicBox .rightBox_1 .musicList table th{
+ 	width: auto;
+ 	text-align: center;
+ 	font-size: 14px;
+ }
+ .musicBody .musicBox .rightBox_1 .musicList table td{
+ 	width: auto;
+ 	text-align:center;
+ 	font-size: 14px;
+ }
+ .musicBody .musicBox .rightBox_1 .musicList table td:hover{
+ 	cursor: pointer;
+ }
+/*将进度条进行隐藏*/
+ .schedule{
+ 	display: none;
+ }
+ 
